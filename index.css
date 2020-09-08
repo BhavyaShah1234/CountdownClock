@@ -1,0 +1,46 @@
+body
+{
+    text-align: center;
+    background: white;
+    font-weight: bold;
+}
+h1
+{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    font-weight: bold;
+    font-size: 40px;
+    color: mediumseagreen;
+    margin: 135px 0px 20px;
+}
+#clock
+{
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    color: deeppink;
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+}
+#clock > div
+{
+    padding: 50px;
+    border-radius: 7px;
+    background: cornflowerblue;
+    display: inline-block;
+}
+#clock > div > span
+{
+    padding: 65px;
+    border-radius: 3px;
+    background: black;
+    display: inline-block;
+}
+.smalltext
+{
+    padding-top: 5px;
+    font-size: 25px;
+}
